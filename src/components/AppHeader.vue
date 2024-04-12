@@ -18,7 +18,7 @@
 <template>
     <header>
         <div class="container">
-            <img src="../assets/img/dc-logo.png" alt="">
+            <img src="/src/assets/img/dc-logo.png" alt="">
             <nav>
                 <ul>
                     <li v-for="element, index in navElements" :class="{ 'active': index == activeElement }" @click="changeActive(index)"><a href="#">{{ element }}</a></li>
@@ -29,10 +29,10 @@
 </template>
 
 <style scoped lang="scss">
-    // @use "./partials/_variables.scss" as *;
+    @use '../style/partials/variables' as *;
 
     header{
-        // height: $small_sect_h;
+        height: $small_sect_h;
         
         .container{
             height: inherit;
@@ -54,13 +54,13 @@
                     align-items: center;
                     text-transform: uppercase;
                     font-weight: 700;
-                    // color: $secondary_dark;
+                    color: $secondary_dark;
     
-                    // &.active{
-                    //     // border-bottom: 3px solid $primary_color;
-                    //     // color: $primary_color;
-                    // }
-                }
+                      &.active{
+                           border-bottom: 3px solid $primary_color;
+                           color: $primary_color;
+                      }
+                 }
             }
         }
     }

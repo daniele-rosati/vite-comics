@@ -35,12 +35,12 @@
 </template>
 
 <style scoped lang="scss">
-    // @use "../style/partials/_variables.scss" as *;
+   @use '../style/partials/variables' as *;
 
     section{
-        // background-color: $secondary_dark;
+        background-color: $secondary_dark;
         color: white;
-        // height: $small_sect_h;
+        height: $small_sect_h;
     }
 
     .container{
@@ -52,7 +52,7 @@
 
     button{
         background-color: transparent;
-        // border: 2px solid $primary_color;
+        border: 2px solid $primary_color;
         padding: 10px;
         color: white;
         text-transform: uppercase;
@@ -67,7 +67,7 @@
             margin-left: 15px;
         }
         span{
-            // color: $primary_color;
+            color: $primary_color;
             text-transform: uppercase;
         }
     }

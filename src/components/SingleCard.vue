@@ -15,14 +15,14 @@
 </template>
 
 <style scoped lang="scss">
-    // @use './partials/_variables.scss' as *;
+    @use '../style/partials/variables' as *;
     
     .card{
         width: calc(100% / 6 - 8px);
         margin: 8px 0;
         .img-wrapper {
             width: 100%;
-            // aspect-ratio: 1;
+            aspect-ratio: 1;
             overflow: hidden;
             img {
                 width: 100%;
