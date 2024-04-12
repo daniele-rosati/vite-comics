@@ -7,9 +7,8 @@
                 navContent: [
                     ["DC Comics", "Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
                     ["Shop", "Shop DC", "Shop DC collectibles"],
-                    ["DC", "", "dolor"],
-                    ["vabè", "abbiamo", "capito"],
-                    ["che", "dramma", "mamma", "mia"]
+                    ["DC", "Term of use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshop", "CPSC Certificate", "Ratings", "Shop Help", "Contact Us"],
+                    ["SITES", "DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
                 ]
             }    
         },
